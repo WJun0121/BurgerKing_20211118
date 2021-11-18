@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>豪點王 線上訂餐</title>
+    <link rel="shortcut icon" href="images/BurgerKing_logo.ico" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style_order online.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/">
+    <!-- 日期 -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="http://jqueryui.com/resources/demos/style.css">
+    <!-- 地址 -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-twzipcode@1.7.14/jquery.twzipcode.min.js"></script>
+    <!-- JS -->
+    <script src="js/script_order online.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="index.html" target="_blank"><img src="images/BurgerKing_logo.svg" alt="bk_logo" class="bk_logo"></a>
+            <a href="index_order online.html" target="_top"><img src="images/豪點王_3.png" alt="hao_king" class="hao_king"></a>
+            <a href="index_order online.html" target="_top">
+                <p class="haoking">
+                    線上訂餐
+                </p>
+            </a>
+            <p class="track">
+                追蹤我的訂單
+            </p>
+
+            <p class="user">
+                <img src="images/user.svg" alt="user" class="user">
+            </p>
+
+            <p class="login">
+                <img src="images/shopping cart.svg" alt="shopping_cart" class="shopping_cart">
+            </p>
+        </header>
+
+        <nav class="nav">
+
+            <ul class="nav-list">
+                <li class="nav-item">選擇時間</li>
+                <li class="nav-item">&raquo</li>
+                <li class="nav-item">訂購點餐</li>
+                <li class="nav-item">&raquo</li>
+                <li class="nav-item">付款方式</li>
+                <li class="nav-item">&raquo</li>
+                <li class="nav-item">訂餐完成</li>
+            </ul>
+        </nav>
+        <article>
+            <div class="article">
+                <div class="time_group">
+                    <img src="images/clock.svg" alt="clock" class="clock">
+                    <p class="time">
+                        取餐時間<input type="text" id="datepicker">
+                    </p>
+                </div>
+
+                <div class="way_group1">
+                    <img src="images/car.svg" alt="car" class="car">
+                    <p class="way">
+                        取餐方式
+                    </p>
+                </div>
+
+                <div class="way_group">
+                    <div class="way_group_item_1">
+                        自取
+                    </div>
+                    <div class="way_group_item_2">
+                        外送
+                    </div>
+                </div>
+
+                <div class="adders-group-big">
+                    <div class="adders-group">
+                        <div class="twzipcode_group">
+                            <div id="twzipcode"></div>
+                        </div>
+                    </div>
+
+                    <form class="adders-group2">
+                        <label>
+                            <input class="label" name="label" type="text" value="請輸入地址">
+                        </label>
+                        <select class="label2" name="favoriteColor" value="請選擇門市">
+                            <option value=“store0">請選擇門市</option>
+                            <option value=“store1">光華店</option>
+                            <option value="store2">公館店</option>
+                            <option value="store3"> 微風北車店</option>
+                        </select>
+                    </form>
+
+                </div>
+
+                <p class="button">
+                    開始訂餐
+                </p>
+            </div>
+    </div>
+    </article>
+</body>
+
+<footer class="footer">
+    <div class="footer_text">
+        Copyright © 2021 Burger King 漢堡王
+    </div>
+</footer>
+
+
+</html>

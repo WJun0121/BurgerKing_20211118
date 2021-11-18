@@ -1,0 +1,327 @@
+html{
+    box-sizing:border-box;
+    font-size: 62.5%; 
+}
+    
+*,*:before, *:after{
+    box-sizing:inherit;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    margin: 0px;
+}
+
+a{
+    text-decoration:none;
+}
+
+.container{
+    min-height: calc(100% - 50px); /*減去footer高度*/
+    margin: 0px auto;
+    background-color: #f5ebdc;
+    padding: 0px 200px 35px 200px;
+}
+
+.header{
+    display:flex;
+    background-color: #ff8732;
+    margin: 0 -200px 0 -200px;
+    padding: 5px 200px 5px 200px;
+}
+
+.bk_logo{
+    width: 7em;
+    height: 9em;
+    margin: 0 20px 0 0;
+}
+
+.hao_king{
+    width: 13em;
+    height: 6em;
+    margin: 17px 20px 0 0;
+}
+
+.haoking{
+    margin: 40px 20px 0 0;
+    font-family: Arial;
+    font-size: 2.6em;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.82;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffff;
+    letter-spacing: 0.06em;
+}
+
+.track{
+    margin: 42px 20px 0 540px;
+    font-family: Arial;
+    font-size: 2em;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.82;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffff;
+}
+
+.user{
+    width: 3.2em;
+    height: 3.2em;
+    margin: 16px 20px 0 0;
+}
+
+.shopping_cart{
+    width: 3.2em;
+    height: 3.2em;
+    margin: 22px 0 0 0;    
+}
+
+.nav-list{
+    height: 60px;
+    display: flex;
+    list-style:none;
+    margin: 50px auto 0px auto;
+    border-radius: 6px;
+    background-color: #d62300;
+    padding: 13px 230px 0px 230px;
+}
+
+.nav-item{
+    font-family: Arial;
+    font-size: 2.4em;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffff;
+    margin-left: 19px;
+    margin-right: 14px;
+    white-space:nowrap;
+}
+
+.article{
+    width: 640px;
+    height: 30px;
+    margin: 60px auto 0 auto;
+}
+
+.time_group{
+    display: flex;
+}
+
+.clock{
+    width: 3.8em;
+    height: 3.8em;
+    margin: 0px 12px 0 0;
+}
+
+
+.time {
+    font-family: Arial;
+    font-size: 3em;
+    font-weight: 560;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #512314;
+    margin: 0px 30px 20px 0;
+}
+
+#datepicker{
+    font-family: Arial;
+    font-size: 0.8em;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #512314;
+    width: 240px;
+    height: 40px;
+    border-radius: 4px;
+    border: 2px solid rgb(155, 155, 155);
+    margin: 0 0 0 30px;
+}
+
+.way_group1{
+    display: flex;
+}
+
+.car{
+    width: 3.8em;
+    height: 3.8em;
+    margin: 0px 12px 0 0;
+}
+
+.way{
+    font-family: Arial;
+    font-size: 3em;
+    font-weight: 560;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #512314;
+    margin: 0px 30px 0 0;
+}
+
+.way_group{
+    display: flex;
+    margin: -40px 8px 20px 200px;
+    font-family: Arial;
+    font-size: 2.4em;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.way_group_item_1{
+    cursor:pointer;
+    margin-right: 30px;
+    background-color: #ff8732;
+    padding:5px 60px;
+    border-radius: 4px;
+}
+
+.way_group_item_2{
+    cursor:pointer;
+    margin-right: 30px;
+    background-color: #ff8732;
+    padding:5px 60px;
+    border-radius: 4px;
+}
+
+.adders-group-big{
+    display: none;
+}
+
+.twzipcode_group{
+    margin: 0px 0px 50px 200px;
+}
+
+.adders-group2{
+    margin: -40px 0px 50px 200px;
+}
+
+
+.addr-county{
+    font-family: Arial;
+    font-size: 2em;
+    font-weight: 540;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #512314;
+    width: 169px;
+    height: 40px;
+    border-radius: 4px;
+    border: 2px solid rgb(155, 155, 155);
+    margin-right: 28px;
+    margin-bottom: 15px;
+}
+
+.addr-area{
+    font-family: Arial;
+    font-size: 2em;
+    font-weight: 540;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #512314;
+    width: 169px;
+    height: 40px;
+    border-radius: 4px;
+    border: 2px solid rgb(155, 155, 155);
+    margin-bottom: 15px;
+}
+
+.addr-zip{
+    display:none;
+}
+
+.label{
+    font-family: Arial;
+    font-size: 2em;
+    font-weight: 540;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #512314;
+    width: 366px;
+    height: 40px;
+    border-radius: 4px;
+    border: 2px solid rgb(155, 155, 155);
+    margin-bottom: 10px;
+}
+
+.label2{
+    font-family: Arial;
+    font-size: 2em;
+    font-weight: 540;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #512314;
+    width: 366px;
+    height: 40px;
+    border-radius: 4px;
+    border: 2px solid rgb(155, 155, 155);
+    margin-bottom: 10px;
+}
+
+.button{
+    cursor:pointer;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #d62300;
+    margin: 0px auto;
+    font-family: Arial;
+    font-size: 2em;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #fff;
+    text-align: center;
+    padding: 6px 0 0 0;
+    letter-spacing:1px;
+}
+
+.button:hover{
+    background-color: #b41e00;
+}
+
+.footer {
+    height: 50px; /*設定footer本身高度*/
+    background-color: #512314;
+}
+
+.footer_text{
+    padding: 14px 0 0 0;
+    font-family: Arial;
+    font-size: 1.2em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f5ebdc;
+}
